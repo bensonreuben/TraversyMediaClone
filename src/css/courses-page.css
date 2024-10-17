@@ -1,0 +1,373 @@
+/* Library course section starts */
+.library-course-section {
+  background-color: rgb(13, 35, 53);
+  color: white;
+}
+
+.library-course-section2 {
+  padding-top: 250px;
+  padding-bottom: 150px;
+  /* padding: 150px 0; */
+  width: 50%;
+  margin: 0 auto;
+}
+
+.librery-course-section-heade-one {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.library-course-section-text {
+  font-size: 19px;
+  text-align: center;
+}
+/* Library course section ends */
+
+/* Featured courses starts */
+.courses-section {
+  background-color: black;
+  color: white;
+}
+
+.courses-section2 {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.courses {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.courses-text {
+  font-size: 20px;
+}
+/* Featured courses ends */
+
+/* Available coursesB starts */
+.available-courses-text {
+  color: rgba(13, 35, 53);
+}
+
+.courses-sectionB {
+  background-color: white;
+}
+
+.courses-section2B {
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.courses-section2B .courses-available {
+  padding-top: 40px;
+}
+
+/* Available coursesB ends */
+
+/* Available courses section2C starts */
+
+.courses {
+  margin-top: 0;
+}
+
+.courses-section2C {
+  padding-bottom: 40px;
+}
+/* Available courses section2C ends */
+
+/* available courses section2F starts */
+.courses .last-box-color {
+  background-color: rgba(136, 140, 141, 0.603);
+}
+
+.course3 .last-box-text {
+  text-align: center;
+}
+
+.courses-sectionB .Last-box {
+  padding-bottom: 150px;
+}
+/* available courses section2F ends */
+
+/* membership section starts here */
+.membership-section {
+  background-color: #3195ffe5;
+}
+
+.membership-sub-sectionn2 {
+  padding: 150px 0;
+}
+
+.membership-sub-section-headings {
+  text-align: center;
+}
+
+.membership-sub-section-headings-text1 {
+  font-size: 38px;
+  color: white;
+}
+
+.membership-sub-section-headings-text2 {
+  font-size: 19px;
+  color: white;
+}
+
+.membership-sub-section {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.membership-sub-section-left {
+  margin-top: 40px;
+  background-color: white;
+  padding-top: 20px;
+  width: 500px;
+  height: 920px;
+}
+
+.membership-sub-section-left-top {
+  text-align: center;
+}
+
+.membership-sub-section-left-text1 {
+  font-size: 28px;
+  font-weight: 800px;
+  color: #3195ffe5;
+}
+
+.membership-sub-section-left-text2 {
+  font-size: 35px;
+}
+
+.membership-sub-section-left-text3 {
+  font-size: 18px;
+}
+
+.membership-sub-secion-cards-text {
+  font-size: 19px;
+}
+
+.membership-sub-secion-left-bottom {
+  margin-top: 40px;
+}
+
+.buy_now_container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.buy-now-button {
+  border: none;
+  background-color: #3195ffe5;
+  width: 220px;
+  font-size: 27px;
+  font-weight: 600;
+  padding: 10px 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.membership-sub-section-right {
+  background-color: black;
+  padding: 20px 40px;
+  color: white;
+  width: 500px;
+  height: 1060px;
+}
+
+.membership-sub-section-right-top {
+  text-align: center;
+}
+
+.membership-sub-section-right-top-text1 {
+  font-size: 27px;
+  color: blue;
+}
+
+.membership-sub-section-right-top-text2 {
+  font-size: 35px;
+}
+
+.membership-sub-section-right-top-text3 {
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.membership-sub-section-right-top-text4 {
+  margin-top: 20px;
+  font-size: 19px;
+}
+
+.all-access-color {
+  color: green;
+}
+
+.membership-sub-section-right-top-text5 {
+  font-size: 19px;
+}
+
+.amount-color {
+  color: red;
+}
+
+.membership-sub-section-right-bottom {
+  margin-top: 40px;
+}
+
+/* membership section ends here */
+
+/* Responsive Design */
+@media (max-width: 1115px) {
+  .courses {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .courses .course1 {
+    width: 100%;
+  }
+
+  .courses .course2 {
+    width: 100%;
+  }
+
+  .courses .course3 {
+    width: 100%;
+  }
+
+  .course1 img {
+    width: 450px;
+  }
+
+  .course2 img {
+    width: 450px;
+  }
+
+  .course3 img {
+    width: 450px;
+  }
+
+  .membership-sub-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .membership-sub-section-left {
+    width: 100%;
+  }
+
+  .membership-sub-section-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 602px) {
+  .courses-text {
+    display: none;
+  }
+
+  .course1 img {
+    width: 300px;
+  }
+
+  .course2 img {
+    width: 300px;
+  }
+
+  .course3 img {
+    width: 300px;
+  }
+
+  .course1 .courses-font-size {
+    font-size: 19px;
+  }
+
+  .course2 .courses-font-size {
+    font-size: 19px;
+  }
+
+  .course3 .courses-font-size {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 562px) {
+  .membership-sub-section-left {
+    height: 1000px;
+  }
+
+  .membership-sub-section-right {
+    height: 1200px;
+  }
+
+  .membership-sub-section-headings-text1 {
+    font-size: 24px;
+  }
+
+  .membership-sub-section-headings-text2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 449px) {
+  .membership-sub-section-left {
+    height: 1050px;
+  }
+
+  .membership-sub-section-right {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 437px) {
+  .course1 img {
+    width: 200px;
+  }
+
+  .course2 img {
+    width: 200px;
+  }
+
+  .course3 img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 390px) {
+  .membership-sub-section-left {
+    height: 1050px;
+  }
+
+  .membership-sub-section-right {
+    height: 1400px;
+  }
+}
+
+@media (max-width: 366px) {
+  .membership-sub-section-left {
+    height: 1050px;
+  }
+
+  .membership-sub-section-right {
+    height: 1500px;
+  }
+
+  .buy-now-button {
+    width: 100px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 357px) {
+  .available-courses-text {
+    font-size: 12px;
+  }
+}
